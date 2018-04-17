@@ -107,7 +107,7 @@ public class ChooseAreaFragment extends Fragment {
             @Override
             public void onClick(View v){
                 if (currentLevel == LEVEL_COUNTY){
-                    queryCounties();
+                    queryCities();
                 }else if (currentLevel == LEVEL_CITY){
                     queryProvinces();
                 }
